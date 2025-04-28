@@ -86,8 +86,7 @@ def predict_spam_or_ham(message):
     
     return prediction[0]
 
-# Example usage
-message = "Congratulations! You've won a $1000 gift card. Click here to claim."
+
 prediction = predict_spam_or_ham(message)
 print(f"The message is: {prediction}")
 3. Model Evaluation

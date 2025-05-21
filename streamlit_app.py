@@ -15,7 +15,7 @@ import re
 import string
 
 # Load model
-with open("/content/spam_classifier (1).pkl", "rb") as f:
+with open("spam_classifier.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Preprocessing function
